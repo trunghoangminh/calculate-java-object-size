@@ -24,7 +24,7 @@ public class ObjectSizeFetcher {
      * Get size of Java Object
      * 
      * @param obj
-     * @return size of Object. Unit is [bit]
+     * @return size of Object. Unit is [byte]
      */
     public static long getObjectSize( Object obj ) {
 	return instrumentation.getObjectSize( obj );
