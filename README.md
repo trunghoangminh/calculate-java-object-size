@@ -5,7 +5,6 @@
 2. Sendcond, we package these files above to jar and also add manifest for it.
 
         jar cvfm ObjectSizeFetcherAgent.jar MANIFEST.MF ObjectSizeFetcher.class Main.class
-
 3. Third, use command below to getting size of Object
         
         java -javaagent:ObjectSizeFetcherAgent.jar Main
